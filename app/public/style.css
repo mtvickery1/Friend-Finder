@@ -1,0 +1,62 @@
+body {
+    background: #17a2b8;
+}
+
+h1 {
+    text-align: center;
+}
+
+.questions {
+    width: 200px;
+    height: 40px;
+}
+
+.form-control {
+    background-color : rgba(201, 201, 201, 0.644);
+}
+
+.box {
+    background: rgba(230, 233, 237, 0.6);
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#main {
+    height: 100%; 
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 250px;
+    padding: 50px;
+    background: rgba(231, 234, 237, 0.6);
+}
+
+/* MODAL */
+#modal {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal-header, .modal-footer {
+    background: #17a2b8;
+}
+
+#modal-title {
+    color: rgba(231, 234, 237, 0.6);
+}
+
+#modal-body {
+    background: #91C7D2;
+}
+
+#modal-photo {
+    max-height: 500px;
+}
+
+#footer {
+    position: absolute;
+	width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: rgba(231, 234, 237, 0.6);
+}
