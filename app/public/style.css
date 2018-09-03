@@ -1,6 +1,7 @@
 body {
     background: url("https://a.ltrbxd.com/resized/sm/upload/ku/hh/uw/j0/anchorman-2-1200-1200-675-675-crop-000000.jpg?k=c567c81895") no-repeat center center fixed;
-    background-size: 100%;
+    background-size: cover;
+    height: 100%;
     color: rgba(231, 234, 237);
 }
 
