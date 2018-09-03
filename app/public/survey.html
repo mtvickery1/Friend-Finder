@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Friend Finder</title>
+    <title>Anchor Finder</title>
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -22,7 +22,7 @@
 
 <body>
     <div class="container box">
-        <h1>Survey Questions</h1>
+        <h1>Anchor Finder Survey</h1>
 
         <form>
             <div class="row">
@@ -31,7 +31,7 @@
                     <input type="text" class="form-control" id="name" placeholder="Name Here">
                 </div>
             </div>
-
+<br>
             <div class="row">
                 <div class="col-12">
                     <label>Provide a link to a photo of you (required)</label>
@@ -45,7 +45,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="form-group">
-                    <h6>I love Will Farell</h6>
+                    <h6>50% of the time, it works everytime.</h6>
                     <select class="form-control input" id="q1">
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -60,7 +60,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="form-group">
-                    <h6>I love Will Farell</h6>
+                    <h6>I enjoy a nice glass of scotch.</h6>
                     <select class="form-control input" id="q2">
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -75,7 +75,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="form-group">
-                    <h6>I love Will Farell</h6>
+                    <h6>Whaaaaaammy!</h6>
                     <select class="form-control input" id="q3">
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -90,7 +90,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="form-group">
-                    <h6>I love Will Farell</h6>
+                    <h6>I love lamp.</h6>
                     <select class="form-control input" id="q4">
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -105,7 +105,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="form-group">
-                    <h6>I love Will Farell</h6>
+                    <h6>I'm kind of a big deal.</h6>
                     <select class="form-control input" id="q5">
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -120,7 +120,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="form-group">
-                    <h6>I love Will Farell</h6>
+                    <h6>I DON'T KNOW WHAT WE'RE YELLING ABOUT!</h6>
                     <select class="form-control input" id="q6">
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -135,7 +135,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="form-group">
-                    <h6>I love Will Farell</h6>
+                    <h6>Milk was a bad choice.</h6>
                     <select class="form-control input" id="q7">
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -150,7 +150,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="form-group">
-                    <h6>I love Will Farell</h6>
+                    <h6>Where'd you get your clothes... from the... toilet store?</h6>
                     <select class="form-control input" id="q8">
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -165,7 +165,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="form-group">
-                    <h6>I love Will Farell</h6>
+                    <h6>Great Odens Raven!</h6>
                     <select class="form-control input" id="q9">
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -180,7 +180,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="form-group">
-                    <h6>I love Will Farell</h6>
+                    <h6>You're so wise. You're like a miniature Buddha, covered in hair.</h6>
                     <select class="form-control input" id="q10">
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -196,7 +196,7 @@
         <!-- Submit Button -->
         <div class="row">
             <div class="col-12">
-                <button type="submit" class="btn btn-info" id="submit-button">Submit</button>
+                <button type="submit" class="btn btn-dark" id="submit-button">Submit</button>
             </div>
         </div>
         </form>
@@ -216,7 +216,7 @@
                     
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" id="modal-button" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -270,7 +270,7 @@
 
                 var matchHTML = `
                 <h6 id="modal-match-name">${matchName}</h6>
-                <img src= ${matchPhoto} id="modal-photo">
+                <img src= ${matchPhoto} class="img-fluid img-thumbnail" id="modal-photo">
                 `;
 
                 modalBody.html(matchHTML);

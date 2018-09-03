@@ -1,29 +1,29 @@
 // Friend Finder Users (DATA)
 var friends = [
     {
-        name: "Mason",
-        photo: "https://images.unsplash.com/photo-1535626412646-58a028a96cde?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51fd7d9fb3d83c1e6a4fefe5621d1795&auto=format&fit=crop&w=634&q=80",
+        name: "Ron Burgandy",
+        photo: "https://memegenerator.net/img/images/400x/4875435.jpg",
+        scores: [1, 5, 1, 1, 5, 1, 5, 1, 5, 5]
+    },
+    {
+        name: "Brick Tamland",
+        photo: "https://vignette.wikia.nocookie.net/anchorman/images/0/0c/Brick-tamland-39895.jpg/revision/latest?cb=20120329162028",
+        scores: [1, 1, 1, 5, 1, 5, 1, 5, 1, 1]
+    },
+    {
+        name: "Champ Kind",
+        photo: "https://mimo.recordingconnection.com/wp-content/uploads/2014/01/300x300.jpg",
+        scores: [1, 3, 5, 3, 3, 4, 3, 4, 3, 4]
+    },
+    {
+        name: "Brian Fantana",
+        photo: "https://vignette.wikia.nocookie.net/anchorman/images/e/ec/Brian-fantana.jpg/revision/latest?cb=20120329161812",
+        scores: [5, 3, 1, 3, 4, 3, 4, 3, 4, 3]
+    },
+    {
+        name: "Vernoica Corningstone",
+        photo: "https://vignette.wikia.nocookie.net/anchorman/images/e/ec/Veronica-corningstone1.jpg/revision/latest?cb=20120329161624",
         scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    },
-    {
-        name: "Amanda",
-        photo: "https://images.unsplash.com/photo-1535626412646-58a028a96cde?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51fd7d9fb3d83c1e6a4fefe5621d1795&auto=format&fit=crop&w=634&q=80",
-        scores: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-    },
-    {
-        name: "Weston",
-        photo: "https://images.unsplash.com/photo-1535626412646-58a028a96cde?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51fd7d9fb3d83c1e6a4fefe5621d1795&auto=format&fit=crop&w=634&q=80",
-        scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
-    },
-    {
-        name: "Ricardo",
-        photo: "https://images.unsplash.com/photo-1535626412646-58a028a96cde?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51fd7d9fb3d83c1e6a4fefe5621d1795&auto=format&fit=crop&w=634&q=80",
-        scores: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
-    },
-    {
-        name: "Josh",
-        photo: "https://images.unsplash.com/photo-1535626412646-58a028a96cde?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51fd7d9fb3d83c1e6a4fefe5621d1795&auto=format&fit=crop&w=634&q=80",
-        scores: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
     }
 ]
 

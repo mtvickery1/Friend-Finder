@@ -1,5 +1,11 @@
 body {
-    background: #17a2b8;
+    background: url("https://a.ltrbxd.com/resized/sm/upload/ku/hh/uw/j0/anchorman-2-1200-1200-675-675-crop-000000.jpg?k=c567c81895") no-repeat center center fixed;
+    background-size: 100%;
+    color: rgba(231, 234, 237);
+}
+
+a {
+    color: rgb(131, 46, 54);
 }
 
 h1 {
@@ -12,11 +18,11 @@ h1 {
 }
 
 .form-control {
-    background-color : rgba(201, 201, 201, 0.644);
+    background-color : rgba(231, 234, 237, 0.75);
 }
 
 .box {
-    background: rgba(230, 233, 237, 0.6);
+    background: rgb(131, 46, 54, .75);
     padding: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -29,7 +35,17 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 250px;
     padding: 50px;
-    background: rgba(231, 234, 237, 0.6);
+    background: rgba(231, 234, 237, 0.75);
+    color: rgb(131, 46, 54);
+}
+
+#start-button, #modal-button {
+    background: #832E36;
+}
+
+#submit-button {
+    background: rgba(231, 234, 237);
+    color: black;
 }
 
 /* MODAL */
@@ -38,15 +54,15 @@ h1 {
 }
 
 .modal-header, .modal-footer {
-    background: #17a2b8;
+    background: rgba(231, 234, 237, 0.75);
 }
 
 #modal-title {
-    color: rgba(231, 234, 237, 0.6);
+    color: #832E36;
 }
 
 #modal-body {
-    background: #91C7D2;
+    background: #832E36;
 }
 
 #modal-photo {
